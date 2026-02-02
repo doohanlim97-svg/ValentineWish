@@ -1,6 +1,16 @@
 {
-  "name": "Irshika",
-  "greetingText": "You have been a really cute girl",
-  "wishText": "Would you be my valentine?",
-  "imagePath": "img/vector.jpg"
+  "name": "Irshika ❤️",
+  "wish_message": "Will you be my Valentine?",
+  "yes_text": "Yes baby 💕",
+  "no_text": "No 😢",
+  "no_messages": [
+    "YodMilk Bagle date?",
+    "Niko Neko on me?",
+    "Picnic date?",
+    "Please baby 🥺",
+    "Crying in Klang",
+    "System error: Only YES allowed",
+    "Your Doohan is waiting ❤️",
+    "Say yes already 😭"
+  ]
 }
