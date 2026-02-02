@@ -1,44 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
 
-    <!-- Browser tab title -->
-    <title>Irshika ❤️ From Doohan</title>
+  <title>Irshika ❤️ From Doohan</title>
 
-    <!-- Mobile Valentine theme color -->
-    <meta name="theme-color" content="#ff5fa2">
+  <!-- Mobile theme color -->
+  <meta name="theme-color" content="#ff5fa2">
 
-    <!-- Preload capybara image -->
-    <link rel="preload" as="image" href="img/capybara.jpg">
+  <!-- Favicon -->
+  <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
 
-    <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
-    <link rel="stylesheet" href="style/style.css" />
-  </head>
+  <!-- Main CSS -->
+  <link rel="stylesheet" href="style/style.css" />
+</head>
 
-  <body>
+<body>
 
-    <!-- MUSIC BUTTON -->
-    <button id="musicBtn" style="
-      position: fixed;
-      bottom: 20px;
-      right: 20px;
-      z-index: 999;
-      background: #ff5fa2;
-      color: white;
-      border: none;
-      padding: 12px 18px;
-      border-radius: 25px;
-      font-size: 14px;
-      cursor: pointer;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
-    ">
-      🎵 Play Music
-    </button>
+<!-- MUSIC BUTTON -->
+<button id="musicBtn" style="
+position: fixed;
+bottom: 20px;
+right: 20px;
+z-index: 999;
+background: #ff5fa2;
+color: white;
+border: none;
+padding: 12px 18px;
+border-radius: 25px;
+font-size: 14px;
+cursor: pointer;
+box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+">
+🎵 Play Music
+</button>
 
-    <!-- BACKGROUND MUSIC -->
-    <audio id="bgMusic" loop>
+<!-- MUSIC -->
+<audio id="bgMusic" loop preload="auto">
+  <source src="https://cdn.pixabay.com/audio/2022/03/15/audio_3c7b3b19f5.mp3" type="audio/mpeg">
+</audio>
 
-      
+<div class="container">
+
+  <div class="one">
+    <h1 class="
