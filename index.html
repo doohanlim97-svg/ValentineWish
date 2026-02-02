@@ -2,67 +2,48 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Happy Valentine ❤️</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Happy Valentine ❤️</title>
 
-  <link rel="shortcut icon" type="image/png" href="./img/heart.svg" />
-  <link rel="stylesheet" href="style/style.css" />
-</head>
+<style>
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#ffb6c1,#ffe4e1);
+  overflow: hidden;
+}
 
-<body>
+.container {
+  text-align: center;
+  padding-top: 80px;
+}
 
-  <div class="container">
+h1 {
+  font-size: 42px;
+  color: #ff2f6d;
+}
 
-    <div class="one">
-      <h1 class="one">
-        Hey
-        <span id="name">Irshika ❤️</span>
-      </h1>
-      <p class="two" id="greetingText">I really like your name btw 😘</p>
-    </div>
+p {
+  font-size: 20px;
+}
 
-    <div class="three">
-      <p>It's Valentines !!! 💕</p>
-    </div>
+.fade {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 1s ease;
+}
 
-    <div class="four">
-      <div class="text-box">
-        <p class="hbd-chatbox">
-          Best Valentines Day Present...for girlfriend..
-        </p>
-        <p class="fake-btn">Send</p>
-      </div>
-    </div>
+.show {
+  opacity: 1;
+  transform: translateY(0);
+}
 
-    <div class="five">
-      <p class="idea-1">I was about to google that.</p>
-      <p class="idea-2">But then I stopped...</p>
-      <p class="idea-3">
-        I realised, I wanted to do something <strong>special</strong>.
-      </p>
-      <p class="idea-4">Because,</p>
-      <p class="idea-5">
-        You are Special
-        <span>💖</span>
-      </p>
-      <p class="idea-6">
-        <span>S</span>
-        <span>O</span>
-      </p>
-    </div>
+img {
+  width: 220px;
+  margin-top: 20px;
+  animation: float 3s ease-in-out infinite;
+}
 
-    <div class="six">
-      <!-- CAPYBARA IMAGE -->
-      <img src="img/capybara.png" alt="capybara" class="girl-dp" id="imagePath" />
-
-      <div class="wish">
-        <h3 class="wish-hbd">Happy Valentine's Day Precious 💝</h3>
-        <h5 id="wishText">I love you 🥰</h5>
-      </div>
-    </div>
-
-    <div class="seven">
-      <div class="baloons">
-        <img s
+@keyframes float {
+  0% { transform: translateY(0); }
