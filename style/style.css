@@ -151,3 +151,18 @@ body {
   background: #fff;
   font-weight: 700;
 }
+.dp-wrap {
+  position: relative;
+  width: 180px;
+  margin: 0 auto 14px;
+}
+
+.hat {
+  position: absolute;
+  width: 90px;
+  left: 50%;
+  top: -25px;
+  transform: translateX(-50%) rotate(-8deg);
+  pointer-events: none;
+}
+
