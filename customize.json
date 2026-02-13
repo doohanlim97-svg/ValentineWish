@@ -1,16 +1,5 @@
 {
   "name": "Irshika ❤️",
-  "wish_message": "Will you be my Valentine?",
-  "yes_text": "Yes baby 💕",
-  "no_text": "No 😢",
-  "no_messages": [
-    "YodMilk Bagle date?",
-    "Niko Neko on me?",
-    "Picnic date?",
-    "Please baby 🥺",
-    "Crying in Klang",
-    "System error: Only YES allowed",
-    "Your Doohan is waiting ❤️",
-    "Say yes already 😭"
-  ]
+  "wishMessage": "Happy Valentine’s Day my love. Thank you for always being there for me at the end of a tiring day.",
+  "imagePath": "img/yourphoto.jpg"
 }
